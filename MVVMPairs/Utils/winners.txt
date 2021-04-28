@@ -1,0 +1,2 @@
+﻿purple 2
+white 1

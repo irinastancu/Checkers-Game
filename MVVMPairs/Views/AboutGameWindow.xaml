@@ -1,0 +1,17 @@
+﻿<Window x:Class="MVVMPairs.Views.AboutGameWindow" 
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MVVMPairs.Views"
+        mc:Ignorable="d"
+        Title="AboutGameWindow" Height="569.008" Width="625.207">
+    <Canvas>
+        <Image Source="C:\Users\Ina\Desktop\MVVM-DemoGame\MVVMPairs\MVVMPairs\Resources\wooden-background_24972-623.jpg" Stretch="Fill" Height="538" Width="617"/>
+        <Grid>
+
+        </Grid>
+        <Image Height="504" Source="/MVVMPairs;component/aboutGame.png" Stretch="Fill" Width="456" Canvas.Left="81" Canvas.Top="-13"/>
+        <Button x:Name="btnBack" Content="Back" Canvas.Left="10" Canvas.Top="474" Width="141" Height="46" Click="btnBack_Click" FontSize="18" FontFamily="Impact"/>
+    </Canvas>
+</Window>
